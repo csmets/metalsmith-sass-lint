@@ -1,8 +1,8 @@
-//const test = require('ava');
+const test = require('ava');
 const Metalsmith = require('metalsmith');
 const sasslint = require('../');
 
-test('Testing if metalsmith-bazooka loads', (t) => {
+test('Testing if metalsmith loads', (t) => {
     const testPath = 'test/fixtures/';
 
     new Metalsmith(testPath)

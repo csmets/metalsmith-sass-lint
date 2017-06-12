@@ -1,7 +1,11 @@
 {
   "name": "metalsmith-sass-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Metalsmith stylelinter for sass files",
+  "repository": {
+    "url": "git+https://github.com/csmets/metalsmith-sass-lint.git",
+    "type": "git"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "ava --verbose"
