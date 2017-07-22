@@ -6,6 +6,11 @@ styleguide :)
 Created due to no stylelint checking plugin found for metalsmith, and we needed
 something this for our production uses.
 
+# Installation
+```
+npm install metalsmith-sass-lint --save-dev
+```
+
 # Usage
 ```javascript
 const Metalsmith = require('metalsmith');
